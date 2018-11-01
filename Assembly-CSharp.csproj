@@ -61,8 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DestroyObject.cs" />
     <Compile Include="Assets\GameOver.cs" />
     <Compile Include="Assets\Jumping.cs" />
+    <Compile Include="Assets\Moving.cs" />
+    <Compile Include="Assets\ScoreCounter.cs" />
+    <Compile Include="Assets\ScoreScript.cs" />
+    <Compile Include="Assets\Spawn.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>D:/Flappy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>

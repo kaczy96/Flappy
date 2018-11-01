@@ -7,6 +7,7 @@ public class Spawn : MonoBehaviour {
     public GameObject obsctacle;
     public float InstantiationTimer;
     public float InstanttiationTimerStart;
+    
 
     void Start ()
     {
@@ -17,12 +18,14 @@ public class Spawn : MonoBehaviour {
         Create();
     }
 
+
     void Create()
     {
         InstantiationTimer -= Time.deltaTime;
         if (InstantiationTimer <= 0)
         {
-            Instantiate(obsctacle, transform.position+=transform.forward*Time.deltaTime, Quaternion.identity);
+            int randomY = Random.Range(-2, 3);
+            Instantiate(obsctacle, new Vector2(Random.value, Random.value * randomY), Quaternion.identity);
             InstantiationTimer = InstanttiationTimerStart;
         }
 
