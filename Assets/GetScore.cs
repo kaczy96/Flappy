@@ -8,6 +8,11 @@ public class GetScore : MonoBehaviour
     public Text fscore;
     float score = 0;
 
+    private void Start()
+    {
+        ShowScore();
+    }
+
     private void ShowScore()
     {
         Debug.Log(score);
