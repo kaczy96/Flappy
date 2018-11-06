@@ -7,13 +7,14 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public Text score;
-    float points = 0;
+    public static float points = 0;
+
 
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Obstacle")
+        if (other.gameObject.tag == "AddPoint")
         {
             ++points;
             Debug.Log(points);

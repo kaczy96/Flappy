@@ -19,7 +19,7 @@ public class DestroyObject : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Destroy")
+        if (other.gameObject.tag == "Destroy" || other.gameObject.tag == "AddPoint")
         {
             Destroy(gameObject);
         }

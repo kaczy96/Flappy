@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 61016723679338710}
   - component: {fileID: 114975290443609104}
   - component: {fileID: 114466942225206020}
+  - component: {fileID: 114689760938783060}
   m_Layer: 0
   m_Name: Obstacle Top
   m_TagString: Obstacle
@@ -44,9 +45,10 @@ GameObject:
   - component: {fileID: 61562490439774570}
   - component: {fileID: 114394484558983334}
   - component: {fileID: 114731718236842682}
+  - component: {fileID: 114806628142131988}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: AddPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,6 +222,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40b2ba1999bff994ba2a07a86996d84c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114689760938783060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1057842961783592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e80b44596e08184990917b90a2b3d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114731718236842682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -229,6 +242,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40b2ba1999bff994ba2a07a86996d84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114806628142131988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336733854125670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e80b44596e08184990917b90a2b3d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114975290443609104
@@ -252,11 +276,9 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -269,7 +291,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -287,7 +308,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212583849203237616
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -297,11 +317,9 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -314,7 +332,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -332,4 +349,3 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
