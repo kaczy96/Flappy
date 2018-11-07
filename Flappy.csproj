@@ -85,12 +85,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\GameOverMenu.cs" />
-    <Compile Include="Assets\GetScore.cs" />
-    <Compile Include="Assets\HitPlayer.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\GameOverMenu.cs" />
+    <Compile Include="Assets\Scripts\GetScore.cs" />
+    <Compile Include="Assets\Scripts\HitPlayer.cs" />
     <Compile Include="Assets\Scripts\Jumping.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Moving.cs" />
